@@ -9,17 +9,17 @@ Denne workshopen vil gi en introduksjon til Java 8 via noen slides og hands-on o
 Før kurset må du ha satt opp:
 
 1. Installerer maven
-1: Last ned JDK8 med Lambda-støtte her: https://jdk8.java.net/lambda/
-3: Putt JDK-filene i mappa 'jdk1.8.0'. Hvis de ligger riktig, så skal filstrukturen se ca. slik ut:
-java8-workshop/jdk1.8.0/bin/
+2. Last ned JDK8 med Lambda-støtte her: https://jdk8.java.net/lambda/
+3. Putt JDK-filene i mappa 'jdk1.8.0'. Hvis de ligger riktig, så skal filstrukturen se ca. slik ut:
+<pre>java8-workshop/jdk1.8.0/bin/
 java8-workshop/jdk1.8.0/lib/
 java8-workshop/jdk1.8.0/jre/
 (...)
+</pre>
 
-3: Aktiver Java-8-støtte i editoren din. (F.eks. for IntelliJ IDEA, sett opp en SDK-konfigurasjon for Java 8 med Lambda-støtte.
+4. Aktiver Java-8-støtte i editoren din. (F.eks. for IntelliJ IDEA, sett opp en SDK-konfigurasjon for Java 8 med Lambda-støtte.
 Du trenger versjon 12 eller nyere for å få lambda-støtte.
-
-4. Se at tester kjører: kjør `mvn test` fra mappen 'java8-workshop'.
+5. Se at tester kjører: kjør `mvn test` fra mappen 'java8-workshop'.
 
 Ved problemer med oppsettet, send en mail til eirik.sletteberg (at) gmail.com.
 
